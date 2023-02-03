@@ -143,5 +143,7 @@ class OpenCVTut:
             cv2.imshow("df", img2)
             cv2.waitKey(0)
             cv2.destroyAllWindows()
+
+
 o = OpenCVTut()
 o.mathingTemplate()
